@@ -1,0 +1,531 @@
+ Volume in drive T has no label.
+ Volume Serial Number is 9681-D06E
+
+ Directory of T:\Collateral\Course_D3\code
+
+22/06/2021  17:04    <DIR>          .
+22/06/2021  17:04    <DIR>          ..
+22/06/2021  16:50                 4 .gitignore
+01/03/2019  22:15    <DIR>          0. Understanding Enter and Exit
+11/03/2019  16:18    <DIR>          01a. Simple Circles - Template Web Page
+14/02/2019  20:35    <DIR>          01b. Simple Circles - Just circles
+11/03/2019  16:18    <DIR>          01c. Simple Circles - Spread along x-axis
+12/03/2019  14:33    <DIR>          01d. Simple Circles - Variable circle sizes
+11/03/2019  16:18    <DIR>          01e. Simple Circles - Colour and opacity
+11/03/2019  16:18    <DIR>          01f. Simple Circles - Spread along y-axis
+11/03/2019  16:18    <DIR>          01g. Simple Circles - Label axes
+11/03/2019  16:18    <DIR>          01h. Simple Circles - Generalisation
+11/03/2019  16:18    <DIR>          01i. Simple Circles - Colour scales
+11/03/2019  16:18    <DIR>          01j. Simple Circles - Glyph Helper
+15/02/2019  10:37    <DIR>          02a. Bar
+14/03/2019  15:13    <DIR>          02b. HBar
+15/02/2019  10:38    <DIR>          02c. Line
+15/02/2019  20:33    <DIR>          03a. Multibar
+15/02/2019  18:58    <DIR>          03b. Multiline
+14/02/2019  20:48    <DIR>          05a. Circles with Transition
+14/02/2019  20:48    <DIR>          05b. Circles with Enter and Exit
+01/03/2019  12:13    <DIR>          05c. Circles with Enter and Exit - and dynamic axis
+04/06/2019  07:32    <DIR>          05d. Circles with Timer
+21/02/2019  19:13    <DIR>          06a. Pie Layout
+04/06/2019  19:27    <DIR>          06b. Partition Layout
+04/06/2019  16:40    <DIR>          06c. Starburst Layout
+12/06/2019  17:05    <DIR>          06d. Force Layout
+14/03/2019  15:13    <DIR>          07a. Legends
+14/03/2019  17:42    <DIR>          07b. Tooltips
+12/06/2019  17:10    <DIR>          07c. Drag and Drop
+14/03/2019  15:13    <DIR>          07d. Multiple charts
+21/05/2019  15:53    <DIR>          07e. Chart Interactions
+21/05/2019  15:53    <DIR>          07f. Chart Interactions2
+23/05/2019  16:57    <DIR>          10a. Heatmap
+30/05/2019  10:01    <DIR>          10b. Bubble
+04/06/2019  07:42    <DIR>          10b. Bubble Timer
+05/06/2019  16:19    <DIR>          10d. Force Transitions
+22/06/2021  14:26    <DIR>          20. Hexbin
+22/06/2021  16:56    <DIR>          21. Lollipop
+22/06/2021  17:04                 0 a.txt
+17/01/2019  14:43           472,081 d3.v4.js
+22/06/2021  16:41            51,470 d3si.js
+15/06/2021  10:39    <DIR>          datasets
+07/08/2015  12:59            83,095 jquery-2.0.0.min.js
+30/05/2019  19:11                16 README.md
+22/06/2021  13:55    <DIR>          ^Exercise Lollipop
+15/11/2019  09:41    <DIR>          ^Exercise1
+               6 File(s)        606,666 bytes
+
+ Directory of T:\Collateral\Course_D3\code\.git
+
+22/06/2021  17:03               130 config
+22/06/2021  17:03                73 description
+22/06/2021  17:03                23 HEAD
+22/06/2021  17:03    <DIR>          hooks
+22/06/2021  17:03    <DIR>          info
+22/06/2021  17:03    <DIR>          objects
+22/06/2021  17:03    <DIR>          refs
+               3 File(s)            226 bytes
+
+ Directory of T:\Collateral\Course_D3\code\.git\hooks
+
+22/06/2021  17:03    <DIR>          .
+22/06/2021  17:03    <DIR>          ..
+22/06/2021  17:03               478 applypatch-msg.sample
+22/06/2021  17:03               896 commit-msg.sample
+22/06/2021  17:03             3,327 fsmonitor-watchman.sample
+22/06/2021  17:03               189 post-update.sample
+22/06/2021  17:03               424 pre-applypatch.sample
+22/06/2021  17:03             1,642 pre-commit.sample
+22/06/2021  17:03             1,348 pre-push.sample
+22/06/2021  17:03             4,898 pre-rebase.sample
+22/06/2021  17:03               544 pre-receive.sample
+22/06/2021  17:03             1,492 prepare-commit-msg.sample
+22/06/2021  17:03             3,610 update.sample
+              11 File(s)         18,848 bytes
+
+ Directory of T:\Collateral\Course_D3\code\.git\info
+
+22/06/2021  17:03    <DIR>          .
+22/06/2021  17:03    <DIR>          ..
+22/06/2021  17:03               240 exclude
+               1 File(s)            240 bytes
+
+ Directory of T:\Collateral\Course_D3\code\.git\objects
+
+22/06/2021  17:03    <DIR>          .
+22/06/2021  17:03    <DIR>          ..
+22/06/2021  17:03    <DIR>          info
+22/06/2021  17:03    <DIR>          pack
+               0 File(s)              0 bytes
+
+ Directory of T:\Collateral\Course_D3\code\.git\objects\info
+
+22/06/2021  17:03    <DIR>          .
+22/06/2021  17:03    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of T:\Collateral\Course_D3\code\.git\objects\pack
+
+22/06/2021  17:03    <DIR>          .
+22/06/2021  17:03    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of T:\Collateral\Course_D3\code\.git\refs
+
+22/06/2021  17:03    <DIR>          .
+22/06/2021  17:03    <DIR>          ..
+22/06/2021  17:03    <DIR>          heads
+22/06/2021  17:03    <DIR>          tags
+               0 File(s)              0 bytes
+
+ Directory of T:\Collateral\Course_D3\code\.git\refs\heads
+
+22/06/2021  17:03    <DIR>          .
+22/06/2021  17:03    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of T:\Collateral\Course_D3\code\.git\refs\tags
+
+22/06/2021  17:03    <DIR>          .
+22/06/2021  17:03    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of T:\Collateral\Course_D3\code\0. Understanding Enter and Exit
+
+01/03/2019  22:15    <DIR>          .
+01/03/2019  22:15    <DIR>          ..
+13/11/2019  10:10             3,234 circles.js
+28/02/2019  20:47                70 data.csv
+13/11/2019  10:09             1,327 index.html
+14/02/2019  20:40                 0 main.css
+               4 File(s)          4,631 bytes
+
+ Directory of T:\Collateral\Course_D3\code\01a. Simple Circles - Template Web Page
+
+11/03/2019  16:18    <DIR>          .
+11/03/2019  16:18    <DIR>          ..
+21/06/2019  18:19               320 index.html
+               1 File(s)            320 bytes
+
+ Directory of T:\Collateral\Course_D3\code\01b. Simple Circles - Just circles
+
+14/02/2019  20:35    <DIR>          .
+14/02/2019  20:35    <DIR>          ..
+10/06/2019  14:57               769 circles.js
+10/06/2019  13:23                83 data.csv
+10/11/2019  16:37               759 index.html
+14/02/2019  20:40                 0 main.css
+               4 File(s)          1,611 bytes
+
+ Directory of T:\Collateral\Course_D3\code\01c. Simple Circles - Spread along x-axis
+
+11/03/2019  16:18    <DIR>          .
+11/03/2019  16:18    <DIR>          ..
+10/11/2019  19:41               869 circles.js
+10/06/2019  13:22                83 data.csv
+10/11/2019  16:37               856 index.html
+14/02/2019  20:40                 0 main.css
+               4 File(s)          1,808 bytes
+
+ Directory of T:\Collateral\Course_D3\code\01d. Simple Circles - Variable circle sizes
+
+12/03/2019  14:33    <DIR>          .
+12/03/2019  14:33    <DIR>          ..
+07/06/2019  10:15               928 circles.js
+10/06/2019  13:22                81 data.csv
+10/11/2019  16:38               858 index.html
+14/02/2019  20:40                 0 main.css
+               4 File(s)          1,867 bytes
+
+ Directory of T:\Collateral\Course_D3\code\01e. Simple Circles - Colour and opacity
+
+11/03/2019  16:18    <DIR>          .
+11/03/2019  16:18    <DIR>          ..
+07/06/2019  10:15             1,125 circles.js
+10/06/2019  13:11                81 data.csv
+10/11/2019  16:38               795 index.html
+14/02/2019  20:40                 0 main.css
+               4 File(s)          2,001 bytes
+
+ Directory of T:\Collateral\Course_D3\code\01f. Simple Circles - Spread along y-axis
+
+11/03/2019  16:18    <DIR>          .
+11/03/2019  16:18    <DIR>          ..
+07/06/2019  10:15             1,172 circles.js
+10/06/2019  13:12                81 data.csv
+10/11/2019  16:38               856 index.html
+14/02/2019  20:40                 0 main.css
+               4 File(s)          2,109 bytes
+
+ Directory of T:\Collateral\Course_D3\code\01g. Simple Circles - Label axes
+
+11/03/2019  16:18    <DIR>          .
+11/03/2019  16:18    <DIR>          ..
+10/06/2019  13:41             1,308 circles.js
+10/06/2019  13:14                83 data.csv
+10/11/2019  16:39               938 index.html
+10/06/2019  13:17               220 main.css
+               4 File(s)          2,549 bytes
+
+ Directory of T:\Collateral\Course_D3\code\01h. Simple Circles - Generalisation
+
+11/03/2019  16:18    <DIR>          .
+11/03/2019  16:18    <DIR>          ..
+10/06/2019  13:20             2,325 circles.js
+10/06/2019  13:22                83 data.csv
+10/11/2019  16:39             1,060 index.html
+10/06/2019  13:19               220 main.css
+               4 File(s)          3,688 bytes
+
+ Directory of T:\Collateral\Course_D3\code\01i. Simple Circles - Colour scales
+
+11/03/2019  16:18    <DIR>          .
+11/03/2019  16:18    <DIR>          ..
+10/06/2019  13:41             1,986 circles.js
+10/06/2019  13:22                83 data.csv
+10/11/2019  19:15             1,059 index.html
+10/06/2019  13:20               220 main.css
+               4 File(s)          3,348 bytes
+
+ Directory of T:\Collateral\Course_D3\code\01j. Simple Circles - Glyph Helper
+
+11/03/2019  16:18    <DIR>          .
+11/03/2019  16:18    <DIR>          ..
+14/06/2021  11:36             1,444 circles.js
+12/03/2019  12:35                96 data.csv
+10/11/2019  16:39             1,052 index.html
+14/02/2019  20:40                 0 main.css
+               4 File(s)          2,592 bytes
+
+ Directory of T:\Collateral\Course_D3\code\02a. Bar
+
+15/02/2019  10:37    <DIR>          .
+15/02/2019  10:37    <DIR>          ..
+10/06/2019  15:44             1,025 bar.js
+12/03/2019  12:35                96 data.csv
+10/11/2019  16:40               982 index.html
+10/06/2019  15:44               220 main.css
+               4 File(s)          2,323 bytes
+
+ Directory of T:\Collateral\Course_D3\code\02b. HBar
+
+14/03/2019  15:13    <DIR>          .
+14/03/2019  15:13    <DIR>          ..
+12/03/2019  12:35                96 data.csv
+10/06/2019  15:44             1,039 hbar.js
+10/11/2019  16:40             1,007 index.html
+10/06/2019  15:44               220 main.css
+               4 File(s)          2,362 bytes
+
+ Directory of T:\Collateral\Course_D3\code\02c. Line
+
+15/02/2019  10:38    <DIR>          .
+15/02/2019  10:38    <DIR>          ..
+12/03/2019  12:35                96 data.csv
+10/11/2019  16:40             1,000 index.html
+10/06/2019  15:50               952 line.js
+10/06/2019  15:48               303 main.css
+               4 File(s)          2,351 bytes
+
+ Directory of T:\Collateral\Course_D3\code\03a. Multibar
+
+15/02/2019  20:33    <DIR>          .
+15/02/2019  20:33    <DIR>          ..
+14/03/2019  15:46                91 data.csv
+10/11/2019  16:41             1,097 index.html
+10/06/2019  16:21               220 main.css
+12/06/2019  17:43             1,806 multibar.js
+               4 File(s)          3,214 bytes
+
+ Directory of T:\Collateral\Course_D3\code\03b. Multiline
+
+15/02/2019  18:58    <DIR>          .
+15/02/2019  18:58    <DIR>          ..
+14/03/2019  16:51                91 data.csv
+10/11/2019  16:41             1,067 index.html
+10/06/2019  19:12               303 main.css
+11/06/2019  13:57             1,461 multiline.js
+               4 File(s)          2,922 bytes
+
+ Directory of T:\Collateral\Course_D3\code\05a. Circles with Transition
+
+14/02/2019  20:48    <DIR>          .
+14/02/2019  20:48    <DIR>          ..
+11/06/2019  18:48             1,796 circles.js
+17/01/2019  14:43           472,081 d3.v4.js
+21/05/2019  09:16                74 data.csv
+10/11/2019  16:41             1,144 index.html
+14/02/2019  20:40                 0 main.css
+               5 File(s)        475,095 bytes
+
+ Directory of T:\Collateral\Course_D3\code\05b. Circles with Enter and Exit
+
+14/02/2019  20:48    <DIR>          .
+14/02/2019  20:48    <DIR>          ..
+11/06/2019  18:46             2,060 circles.js
+17/01/2019  14:43           472,081 d3.v4.js
+11/06/2019  18:32               249 data.csv
+10/11/2019  16:41             1,201 index.html
+14/02/2019  20:40                 0 main.css
+               5 File(s)        475,591 bytes
+
+ Directory of T:\Collateral\Course_D3\code\05c. Circles with Enter and Exit - and dynamic axis
+
+01/03/2019  12:13    <DIR>          .
+01/03/2019  12:13    <DIR>          ..
+11/06/2019  18:38             2,342 circles.js
+17/01/2019  14:43           472,081 d3.v4.js
+11/06/2019  18:20               247 data.csv
+10/11/2019  16:42             1,186 index.html
+14/02/2019  20:40                 0 main.css
+               5 File(s)        475,856 bytes
+
+ Directory of T:\Collateral\Course_D3\code\05d. Circles with Timer
+
+04/06/2019  07:32    <DIR>          .
+04/06/2019  07:32    <DIR>          ..
+11/06/2019  19:20             1,996 circles.js
+17/01/2019  14:43           472,081 d3.v4.js
+11/06/2019  18:20               247 data.csv
+10/11/2019  16:42             1,084 index.html
+14/02/2019  20:40                 0 main.css
+               5 File(s)        475,408 bytes
+
+ Directory of T:\Collateral\Course_D3\code\06a. Pie Layout
+
+21/02/2019  19:13    <DIR>          .
+21/02/2019  19:13    <DIR>          ..
+12/03/2019  12:35                96 data.csv
+14/06/2021  12:50               996 index.html
+14/02/2019  20:40                 0 main.css
+14/06/2021  12:49             1,394 pie.js
+17/02/2019  19:19                48 xdata.csv
+               5 File(s)          2,534 bytes
+
+ Directory of T:\Collateral\Course_D3\code\06b. Partition Layout
+
+04/06/2019  19:27    <DIR>          .
+04/06/2019  19:27    <DIR>          ..
+04/06/2019  19:27               573 data.csv
+10/11/2019  16:43               841 index.html
+05/06/2019  07:58                85 main.css
+12/06/2019  16:02             2,744 partition.js
+               4 File(s)          4,243 bytes
+
+ Directory of T:\Collateral\Course_D3\code\06c. Starburst Layout
+
+04/06/2019  16:40    <DIR>          .
+04/06/2019  16:40    <DIR>          ..
+04/06/2019  19:27               573 data.csv
+10/11/2019  16:43               871 index.html
+05/06/2019  07:58                85 main.css
+12/06/2019  16:16             2,874 starburst.js
+               4 File(s)          4,403 bytes
+
+ Directory of T:\Collateral\Course_D3\code\06d. Force Layout
+
+12/06/2019  17:05    <DIR>          .
+12/06/2019  17:05    <DIR>          ..
+06/06/2019  07:06               416 data.csv
+19/06/2019  13:21             1,922 force.js
+10/11/2019  16:43             1,180 index.html
+05/06/2019  18:50               728 main.css
+               4 File(s)          4,246 bytes
+
+ Directory of T:\Collateral\Course_D3\code\07a. Legends
+
+14/03/2019  15:13    <DIR>          .
+14/03/2019  15:13    <DIR>          ..
+11/06/2019  15:42             1,027 bar.js
+12/03/2019  12:35                96 data.csv
+10/11/2019  19:23             1,459 index.html
+11/06/2019  15:43               834 main.css
+               4 File(s)          3,416 bytes
+
+ Directory of T:\Collateral\Course_D3\code\07b. Tooltips
+
+14/03/2019  17:42    <DIR>          .
+14/03/2019  17:42    <DIR>          ..
+15/11/2019  10:17             1,239 bar.js
+12/03/2019  12:35                96 data.csv
+10/11/2019  16:44             1,375 index.html
+11/06/2019  16:18               952 main.css
+               4 File(s)          3,662 bytes
+
+ Directory of T:\Collateral\Course_D3\code\07c. Drag and Drop
+
+12/06/2019  17:10    <DIR>          .
+12/06/2019  17:10    <DIR>          ..
+06/06/2019  07:06               416 data.csv
+19/06/2019  13:41             2,037 force.js
+10/11/2019  16:44             1,198 index.html
+05/06/2019  18:50               728 main.css
+               4 File(s)          4,379 bytes
+
+ Directory of T:\Collateral\Course_D3\code\07d. Multiple charts
+
+14/03/2019  15:13    <DIR>          .
+14/03/2019  15:13    <DIR>          ..
+10/11/2019  17:32             1,177 bar.js
+21/05/2019  15:53               328 data.csv
+10/11/2019  19:24             1,423 index.html
+21/05/2019  15:49               389 main.css
+               4 File(s)          3,317 bytes
+
+ Directory of T:\Collateral\Course_D3\code\07e. Chart Interactions
+
+21/05/2019  15:53    <DIR>          .
+21/05/2019  15:53    <DIR>          ..
+15/06/2021  13:32             1,635 bar.js
+21/05/2019  15:53               328 data.csv
+15/06/2021  13:32             2,588 index.html
+19/06/2019  19:22               485 main.css
+               4 File(s)          5,036 bytes
+
+ Directory of T:\Collateral\Course_D3\code\07f. Chart Interactions2
+
+21/05/2019  15:53    <DIR>          .
+21/05/2019  15:53    <DIR>          ..
+15/06/2021  17:44             1,797 bar.js
+21/06/2019  16:07               437 data.csv
+15/06/2021  14:16             2,140 hbar.js
+21/06/2019  17:48             3,023 index.html
+21/06/2019  13:18             1,192 line.js
+21/06/2019  13:00               792 main.css
+21/06/2019  15:52             1,622 pie.js
+               7 File(s)         11,003 bytes
+
+ Directory of T:\Collateral\Course_D3\code\10a. Heatmap
+
+23/05/2019  16:57    <DIR>          .
+23/05/2019  16:57    <DIR>          ..
+23/05/2019  17:41               479 data.csv
+06/06/2019  09:17             2,211 heatmap.js
+10/11/2019  19:19             1,480 index.html
+23/05/2019  19:05               728 main.css
+               4 File(s)          4,898 bytes
+
+ Directory of T:\Collateral\Course_D3\code\10b. Bubble
+
+30/05/2019  10:01    <DIR>          .
+30/05/2019  10:01    <DIR>          ..
+10/11/2019  19:28             2,300 bubble.js
+30/05/2019  18:46            17,835 data.csv
+10/11/2019  19:26             2,379 index.html
+30/05/2019  18:49             2,021 main.css
+30/05/2019  11:36         1,054,083 wdi.csv
+               5 File(s)      1,078,618 bytes
+
+ Directory of T:\Collateral\Course_D3\code\10b. Bubble Timer
+
+04/06/2019  07:42    <DIR>          .
+04/06/2019  07:42    <DIR>          ..
+06/06/2019  09:20             4,835 animatedBubbleChart.js
+04/06/2019  08:19             5,274 data - UK.csv
+04/06/2019  11:07           876,911 data.csv
+10/11/2019  19:26             2,754 index.html
+04/06/2019  11:25             2,790 main.css
+               5 File(s)        892,564 bytes
+
+ Directory of T:\Collateral\Course_D3\code\10d. Force Transitions
+
+05/06/2019  16:19    <DIR>          .
+05/06/2019  16:19    <DIR>          ..
+06/06/2019  07:06               416 data.csv
+12/06/2019  17:32             6,356 forcetransitions.js
+10/11/2019  19:21             1,978 index.html
+05/06/2019  18:50               728 main.css
+               4 File(s)          9,478 bytes
+
+ Directory of T:\Collateral\Course_D3\code\20. Hexbin
+
+22/06/2021  14:26    <DIR>          .
+22/06/2021  14:26    <DIR>          ..
+22/06/2021  14:26            10,401 data.csv
+22/06/2021  16:03             2,093 hexbin.js
+22/06/2021  15:39             1,219 index.html
+10/06/2019  15:44               220 main.css
+               4 File(s)         13,933 bytes
+
+ Directory of T:\Collateral\Course_D3\code\21. Lollipop
+
+22/06/2021  16:56    <DIR>          .
+22/06/2021  16:56    <DIR>          ..
+12/03/2019  12:35                96 data.csv
+22/06/2021  16:18             1,216 index.html
+22/06/2021  16:42             1,793 lollipop.js
+10/06/2019  15:44               220 main.css
+               4 File(s)          3,325 bytes
+
+ Directory of T:\Collateral\Course_D3\code\datasets
+
+15/06/2021  10:39    <DIR>          .
+15/06/2021  10:39    <DIR>          ..
+               0 File(s)              0 bytes
+
+ Directory of T:\Collateral\Course_D3\code\^Exercise Lollipop
+
+22/06/2021  13:55    <DIR>          .
+22/06/2021  13:55    <DIR>          ..
+15/06/2021  10:48             1,996 1 lollipop - kickstarter.html
+15/06/2021  11:19             2,497 2 hexbin - kickstater.html
+15/06/2021  11:50             4,488 3 combined.html
+15/06/2021  17:54             5,500 4 combined.html
+15/06/2021  18:06             5,452 4a combined.html
+15/06/2021  10:50         2,681,756 gbp_kickstarter_2015_detail.csv
+15/06/2021  10:42               596 gbp_kickstarter_2015_summary.csv
+15/06/2021  10:38             2,391 hexbin.html
+15/06/2021  08:58             2,004 lollipop.html
+               9 File(s)      2,706,680 bytes
+
+ Directory of T:\Collateral\Course_D3\code\^Exercise1
+
+15/11/2019  09:41    <DIR>          .
+15/11/2019  09:41    <DIR>          ..
+15/11/2019  10:33             1,434 circles.js
+14/11/2019  12:54               373 data.csv
+15/11/2019  10:34             1,801 Exercise1.zip
+15/11/2019  10:32             1,186 index.html
+15/11/2019  10:34               950 main.css
+               5 File(s)          5,744 bytes
+
+     Total Files Listed:
+             186 File(s)      7,329,105 bytes
+             143 Dir(s)  36,404,256,768 bytes free
