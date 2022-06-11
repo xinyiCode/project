@@ -60,31 +60,69 @@
 
 
     
-   ///////The title of right chart
+   ///////The title of left chart
     svg.append("text")
-	.text("Percentage of GDP factors in UK")
+	.text("Components of GDP")
     .style("fill", "FF2E00")
-    .style("font-size", "24px")
+    .style("font-size", "30px")
     .attr("font-family", function(d,i) {return i<5 ? "Helvetica" : "regular"; })
-    .attr("x", 30)
+    .attr("x", 680)
 	.attr("y", 80)
 
   // arrow to change to next country
   svg.append('line')
     .style("stroke", "red")
-    .style("stroke-width", 2)
-    .attr("x1", 420)
-    .attr("y1", 60)
-    .attr("x2", 450)
+    .style("stroke-width", 5)
+    .attr("x1", 1120)
+    .attr("y1", 55)
+    .attr("x2", 1150)
     .attr("y2", 70)
     .on('click', function(d,i){ location.href = 'us3.html';  });;
 
     svg.append('line')
     .style("stroke", "red")
-    .style("stroke-width", 2)
-    .attr("x1", 420)
-    .attr("y1", 80)
-    .attr("x2", 450)
+    .style("stroke-width", 5)
+    .attr("x1", 1050)
+    .attr("y1", 70)
+    .attr("x2", 1150)
+    .attr("y2", 70)
+    .on('click', function(d,i){ location.href = 'us3.html';  });;
+
+    svg.append('line')
+    .style("stroke", "red")
+    .style("stroke-width", 5)
+    .attr("x1", 1120)
+    .attr("y1", 85)
+    .attr("x2", 1150)
+    .attr("y2", 70)
+    .on('click', function(d,i){ location.href = 'us3.html';  });;
+
+
+    // arrow to change to previous country
+    svg.append('line')
+    .style("stroke", "red")
+    .style("stroke-width", 5)
+    .attr("x1", 530)
+    .attr("y1", 55)
+    .attr("x2", 500)
+    .attr("y2", 70)
+    .on('click', function(d,i){ location.href = 'us3.html';  });;
+
+    svg.append('line')
+    .style("stroke", "red")
+    .style("stroke-width", 5)
+    .attr("x1", 500)
+    .attr("y1", 70)
+    .attr("x2", 600)
+    .attr("y2", 70)
+    .on('click', function(d,i){ location.href = 'us3.html';  });;
+
+    svg.append('line')
+    .style("stroke", "red")
+    .style("stroke-width", 5)
+    .attr("x1", 530)
+    .attr("y1", 85)
+    .attr("x2", 500)
     .attr("y2", 70)
     .on('click', function(d,i){ location.href = 'us3.html';  });;
 
@@ -96,7 +134,7 @@
 </script>
 <html>
   <head>
-    <title>Force chart with transitions to different layouts</title>
+    <title>The percentage of 4 Components of GDP</title>
 
     <!--Load javascript libraries-->
     <script src="../d3.v4.js"></script>
@@ -124,7 +162,7 @@ function drawForceTransitionsChart(container, data, parameters={}) {
     const chargeStrength = 0.1 // how much bubble attract
     const collisionStrength = 0.2 // how much bubbles bounce off each other
     const bubbleSizeMin = 5
-    const bubbleSizeMax = 100
+    const bubbleSizeMax = 200
     getTooltipData = parameters['getTooltipData']
 
     // Create our D3 Simple object
@@ -222,6 +260,8 @@ function drawForceTransitionsChart(container, data, parameters={}) {
             force.alpha(1).restart()  // Reset alpha to 1 to start the simulation.  Will decay towards 0
         })
       
+
+        
   
         
    
@@ -276,7 +316,7 @@ function drawForceTransitionsChart(container, data, parameters={}) {
       chartParams["yGroupCol"] = "percentage"
       chartParams["getTooltipData"] = getTooltipData
       chartParams["height"] = 600
-      chartParams["width"] = 800
+      chartParams["width"] = 1600
       chartParams["colours"]=['#FFFFFF','#FFFFFF','#FFFFFF','#FFFFFF']//try to change colour here
 
       // Draw the chart 
@@ -295,3 +335,12 @@ function drawForceTransitionsChart(container, data, parameters={}) {
   </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+

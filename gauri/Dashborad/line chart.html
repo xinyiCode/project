@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+       // set the dimensions and margins of the graph
+    //var margin = {top: 500, right: 40, bottom: 50, left: 80},
+       // width = 1000 - margin.left - margin.right,
+        //height = 760 - margin.top - margin.bottom;
+    
+    // append the svg object to the body of the page
+    var svg = d3.select("#my_dataviz")
+      .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .style('fill', '#ff0000')
+
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Government spending', 'Net export'],
+          ['2016',  22.5,  11.90],
+          ['2017',  22.27,  12.19],
+          ['2018',  22.30,  12.29  ],
+          ['2019',  22.65,    11.75]
+        ]);
+
+        var options = {
+          title: 'World development indicator',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+
+     
+    </script>
+  </head>
+  <body>
+    <div id="curve_chart" style="width: 1000px; height: 500px"></div>
+  </body>
+</html>
