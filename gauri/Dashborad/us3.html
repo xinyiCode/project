@@ -43,45 +43,36 @@
     .attr("font-family", function(d,i) {return i<5 ? "Helvetica" : "regular"; })
     .attr("x", 30)
 	.attr("y", 27)
-    .on('click', function(d,i){ location.href = 'index2.html';  })
-
-    /*svg.append("text")
-	.text("Compare to other countries")
-    .style("fill", "#ff2e00")
-    .style("font-size", "32px")
-    .attr("font-family", function(d,i) {return i<5 ? "Helvetica" : "regular"; })
-    .attr("x", 1250)
-	.attr("y", 27)
-    //.on('click', function(d,i){ location.href = 'index2.html';  })*/
+    .on('click', function(d,i){ location.href = 'index2.html';  });;
 
     
    ///////The title of right chart
     svg.append("text")
-	.text("Percentage of GDP factors in Germany")
+	.text("Percentage of GDP factors in US")
     .style("fill", "#ff2e00")
     .style("font-size", "24px")
     .attr("font-family", function(d,i) {return i<5 ? "Helvetica" : "regular"; })
     .attr("x", 30)
 	.attr("y", 80)
 
-    // arrow to change to next country
+  // arrow to change to next country
   svg.append('line')
     .style("stroke", "red")
     .style("stroke-width", 2)
-    .attr("x1", 480)
+    .attr("x1", 420)
     .attr("y1", 60)
-    .attr("x2", 510)
+    .attr("x2", 450)
     .attr("y2", 70)
-    .on('click', function(d,i){ location.href = 'uk.html';  });;
+    .on('click', function(d,i){ location.href = 'Germany.html';  })
 
     svg.append('line')
     .style("stroke", "red")
     .style("stroke-width", 2)
-    .attr("x1", 480)
+    .attr("x1", 420)
     .attr("y1", 80)
-    .attr("x2", 510)
+    .attr("x2", 450)
     .attr("y2", 70)
-    .on('click', function(d,i){ location.href = 'uk.html';  });;
+    .on('click', function(d,i){ location.href = 'Germany.html';  });
 
 
 
@@ -195,12 +186,18 @@ function drawForceTransitionsChart(container, data, parameters={}) {
         d.fy = null
     }           
   
+
+
+
+
     // Define handlers for the buttons
+
 
     d3.select("#centreButton")
     .style("background-color", "#FFFFFF")
     .style("border-color", "#FF2E00")
     .style("color","#FF2E00")
+
 
     d3.select("#centreButton")
         .on("click", function() {    
@@ -240,7 +237,7 @@ function drawForceTransitionsChart(container, data, parameters={}) {
   <!--Script to draw the charts-->
   <script>    
     // Load the data and use it to build the chart
-    loadCsv('Germany.csv', buildChart)
+    loadCsv('us.csv', buildChart)
 
     // Define the function that actually builds the chart
     function buildChart(error, data) {

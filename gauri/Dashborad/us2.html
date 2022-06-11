@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+
+
 <html>
   <head>
     <title>Force chart with transitions to different layouts</title>
@@ -21,6 +24,7 @@
  */
 
 
+
 function drawForceTransitionsChart(container, data, parameters={}) {
     // Select the default parameters or select from provided parameters
     const xCol = parameters['xCol']
@@ -33,7 +37,7 @@ function drawForceTransitionsChart(container, data, parameters={}) {
     const chargeStrength = 0.1 // how much bubble attract
     const collisionStrength = 0.2 // how much bubbles bounce off each other
     const bubbleSizeMin = 5
-    const bubbleSizeMax = 50
+    const bubbleSizeMax = 100
     getTooltipData = parameters['getTooltipData']
 
     // Create our D3 Simple object
@@ -61,7 +65,7 @@ function drawForceTransitionsChart(container, data, parameters={}) {
             .style("fill", function(d){ return colourScale(d[colourCol])})
             .style("fill-opacity", 0.8)
             .attr("stroke", "black")
-            .style("stroke-width", 1)
+            .style("stroke-width", 0)
             // Add the event handlers for the tooltip
             .on('mouseover',  function (d) { chart.tooltipShow(this, ttStyleShow) })
             .on('mousemove',  function (d) { chart.tooltipMove(this, getTooltipData(d)) })
@@ -80,13 +84,13 @@ function drawForceTransitionsChart(container, data, parameters={}) {
 
     function ttStyleShow(el) {
         d3.select(el)
-        .style("stroke-width", 1)
+        .style("stroke-width", 0)
     }
 
     function ttStyleHide(el) {
 
         d3.select(el)
-        .style("stroke-width", 1)
+        .style("stroke-width", 0)
     }
 
     // Define handlers for drag events
@@ -121,71 +125,10 @@ function drawForceTransitionsChart(container, data, parameters={}) {
             force.alpha(1).restart()  // Reset alpha to 1 to start the simulation.  Will decay towards 0
         })
 
-    /*d3.select("#xLinearButton")   
-        .on("click", function() {
-            let xScale = chart.xScaleLinear(xCol)
-            chart.removeAxes()
-            chart.drawAxisXBottom(xScale, xCol)
-
-            let force = chart.forceSimulation(nodes)
-            chart.addForceX(function(d) {return xScale(d[xCol])})
-            chart.addForceY(chart.drawingCentreY)            
-            chart.addForceCharge(chargeStrength)
-            chart.addForceCollide(collisionStrength, function(d){ return (rScale(d[bubbleSizeCol])) })
-
-            force.alpha(1).restart()
-        })
-
-    d3.select("#yLinearButton")   
-        .on("click", function() {     
-            let yScale = chart.yScaleLinear(yCol)       
-            chart.removeAxes()
-            chart.drawAxisYLeft(yScale, yCol)  
-
-            let force = chart.forceSimulation(nodes)
-            chart.addForceY(function(d) {return yScale(d[yCol])})
-            chart.addForceX(chart.drawingCentreX)            
-            chart.addForceCharge(chargeStrength)
-            chart.addForceCollide(collisionStrength, function(d){ return (rScale(d[bubbleSizeCol])) })
-            
-            force.alpha(1).restart()
-        })       
-
-    d3.select("#xGroupButton")   
-        .on("click", function() {
-            let xScale = chart.xScaleBand(xGroupCol)
-            let xOffset = xScale.bandwidth()/2
-            chart.removeAxes()
-            chart.drawAxisXBottom(xScale, xGroupCol)
-            
-            let force = chart.forceSimulation(nodes)
-            chart.addForceX(function(d) {return xScale(d[xGroupCol])+xOffset})
-            chart.addForceY(chart.drawingCentreX)            
-            chart.addForceCharge(chargeStrength)
-            chart.addForceCollide(collisionStrength, function(d){ return (rScale(d[bubbleSizeCol])) })
-
-            force.alpha(1).restart()
-        })
-
-    d3.select("#yGroupButton")   
-        .on("click", function() {    
-            let yScale = chart.yScaleBand(yGroupCol)   
-            let yOffset = yScale.bandwidth()/2
-            chart.removeAxes()
-            chart.drawAxisYLeft(yScale, yGroupCol)  
-
-            let force = chart.forceSimulation(nodes)
-            chart.addForceX(chart.drawingCentreY)         
-            chart.addForceY(function(d) {return yScale(d[yGroupCol])+yOffset})
-            chart.addForceCharge(chargeStrength)
-            chart.addForceCollide(collisionStrength, function(d){ return (rScale(d[bubbleSizeCol])) })   
-
-            force.alpha(1).restart()
-        })   */  
+      
 }
 
     </script>
-
 
 
 
@@ -193,10 +136,26 @@ function drawForceTransitionsChart(container, data, parameters={}) {
     <link rel="stylesheet" href="main.css" />
     
   </head>
+
+
+<!--///Navigation Bottom--> 
+<svg height="200" width="1680">
+    <line x1="20" y1="20" x2="1000" y2="20" style="stroke:rgb(1, 1, 1);stroke-width:1" />
+</svg>
+
+
   <body>
-      <button id="centreButton">GDP Factors in US</button>
+      <button style='margin:30px' id="centreButton">GDP Factors in US</button>
       
   
+    
+   
+    
+
+
+    
+
+
     <!--This is where the chart will be drawn-->
     <div id="chart"></div>
 
@@ -213,16 +172,24 @@ function drawForceTransitionsChart(container, data, parameters={}) {
         // Make sure numbers load as numbers not strings
         convertNumbers(data)
 
+        
+        // set the dimensions and margins of the graph
+    var margin = {top: 10, right: 30, bottom: 30, left: 60},
+        width = 1700 - margin.left - margin.right,
+        height = 760 - margin.top - margin.bottom;
+
         // Setup parameters for the chart
         let chartParams = {}
-        chartParams["colourCol"] = "percent"
-        chartParams["bubbleSizeCol"] = "percent"
+        chartParams["colourCol"] = "percentage"
+        chartParams["bubbleSizeCol"] = "percentage"
         chartParams["xCol"] = "GDPfactors"
-        chartParams["yCol"] = "percent"
+        chartParams["yCol"] = "percentage"
         chartParams["xGroupCol"] = "GDPfactors"
-        chartParams["yGroupCol"] = "percent"
+        chartParams["yGroupCol"] = "percentage"
         chartParams["getTooltipData"] = getTooltipData
-        chartParams["height"] = 800
+        chartParams["height"] = 600
+        chartParams["width"] = 800
+        chartParams["colours"]=['#b2182b','#ef8a62','#fddbc7','#e0e0e0','#999999','#4d4d4d']//try to change colour here
 
         // Draw the chart 
         drawForceTransitionsChart("#chart", data, chartParams)
@@ -232,7 +199,7 @@ function drawForceTransitionsChart(container, data, parameters={}) {
       function getTooltipData(d) {
         return {
             tt1 : d.GDPfactors,
-            tt2 : "percent: " + d.percente,
+            tt2 : "percentage: " + d.percentage,
             //tt3 : "Lifetime Best: " + d.lifetimebest + "Level: " + d.level,
             //tt4 : d.gender + "  " + d.age + "  " + d.nationality
         }
